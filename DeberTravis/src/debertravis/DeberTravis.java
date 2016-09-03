@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package debertravis;
-
+import javax.swing.JOptionPane;
 /**
  *
  * @author ariel
@@ -16,7 +16,6 @@ public class DeberTravis {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
         int op=0, n1=0, n2=0; //op variables para el menu, n1 y n2 variables de los numeros
         String ax; //variable que recibe los numeros
         operaciones trin = new operaciones(); //objeto llamado trin de la clase operaciones para usar los metodos
@@ -55,6 +54,6 @@ public class DeberTravis {
         System.exit(0);//linea para asegurar la finalizacion del programa     
  
     }  //fin metodo principal  
-    }
+        
     
 }
